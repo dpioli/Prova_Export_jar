@@ -19,7 +19,7 @@ public class GsonImportTest {
 		System.out.println(numeri);
 		System.out.println(gson.toJson(numeri));
 		try {
-			FileWriter fileWriter = new FileWriter("../ImportJar/src/numeri/num.json");
+			FileWriter fileWriter = new FileWriter("../ImportJar/numeri/num.json");
 			gson.toJson(numeri, fileWriter);
 			System.out.println("JSON saved to num.json successfully!");
 			fileWriter.close();
