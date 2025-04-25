@@ -9,7 +9,7 @@ import com.google.gson.reflect.TypeToken;
 
 public class Persistenza {
 	
-	private static final String FILE_DATI = "numeri/num.json";
+	private static final String FILE_DATI = "../ImportJar/numeri/num.json";
 	private static Gson gson;
 	
 	public Persistenza() {
